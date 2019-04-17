@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.everything-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.everything-wrapper > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#listwrapperd {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+}
